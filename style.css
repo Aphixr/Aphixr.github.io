@@ -1,0 +1,102 @@
+/* Style all */
+* {
+    color: white;
+    font-family: 'calibri', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    background: transparent;
+    width: 9px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3e4553;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #474f5f;
+}
+
+/* Body */
+body {
+    background-color: #242830;
+    margin: 15vh 30vw 15vh 10vw;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        margin: 15vh 10vw 15vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10vh 10vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+    body {
+        margin: 7vh 9vw;
+    }
+}
+
+/* Headings */
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 27px;
+    margin: 24px 0px 9px;
+}
+
+/* Style all the boxes in projects */
+#projects div div {
+    background-color: #ffffff09;
+    display: inline-table;
+    width: 30%;
+    margin: 10px 1%;
+    padding: 9px;
+    border-radius: 6px;
+}
+#projects div div h4 {
+    font-size: 21px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+#projects div div h4 a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+#projects div div h4 a:hover {
+    color: #c1d6ff;
+    text-decoration: underline;
+}
+#projects div div small {
+    color: #cacaca;
+    display: inline-block;
+    margin-left: 9px;
+}
+#projects div div ul {
+    list-style-type: none;
+    border-radius: 6px;
+}
+#projects div div ul li {
+    background-color: #00000030;
+    color: #c0c0c0;
+    font-size: 12px;
+    display: inline-block;
+    margin: 3px 3px 3px 0px;
+    padding: 3px;
+    border-radius: 3px;
+}
+@media only screen and (max-width: 600px) {
+    #projects div div {
+        width: 44%;
+    }
+}
+
+
+
+
+
