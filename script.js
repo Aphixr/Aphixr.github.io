@@ -73,26 +73,26 @@ window.addEventListener("DOMContentLoaded", () => {
     putItems("games", [
         {
             name: "Meteors",
-            lfs: ["JavaScript", "Processing"],
+            lfs: ["JavaScript", "Processing.js"],
             desc: "How long can you survive before a meteors falls on your head?",
             link: "https://www.khanacademy.org/computer-programming/meteors/5574744762040320"
         },
         {
             name: "Pong",
-            lfs: ["JavaScript", "Processing"],
+            lfs: ["JavaScript", "Processing.js"],
             desc: "Play pong. Use your paddle to hit the ball. First to 9 points wins!",
             link: "https://www.khanacademy.org/computer-programming/pong/6351475829719040"
         },
         {
             name: "Fruit Dodge",
-            lfs: ["JavaScript", "Processing"],
+            lfs: ["JavaScript", "Processing.js"],
             desc: "Dodge the falling fruits. Survive for as long as you can before one hits you.",
             link: "https://www.khanacademy.org/computer-programming/fruit-dodge/4748105605005312"
         },
         {
             name: "The Missing Present",
-            lfs: ["JavaScript", "Processing"],
-            desc: "A present was stolen! Can you get the present back? Also the largest projects I've ever made.",
+            lfs: ["JavaScript", "Processing.js"],
+            desc: "A present was stolen! Can you get the present back? Also the largest project I've ever made.",
             link: "https://www.khanacademy.org/computer-programming/the-missing-present/6594755209674752"
         },
         {
@@ -116,14 +116,14 @@ window.addEventListener("DOMContentLoaded", () => {
             name: "Pixelet",
             ver: "v0.1.0*",
             lfs: ["C++", "OpenGL", "GLFW"],
-            desc: "This template helps you create graphics in C++. Work in progress.",
+            desc: "This template helps you create graphics in C++. Work in progress. Expect v1.0.0 between Nov. 21 and Jan. 8.",
             link: "https://github.com/Aphixr/Pixelet"
         },
         {
             name: "Weblet",
-            ver: "v0.1.0*",
+            ver: "v0.2.0*",
             lfs: ["JavaScript"],
-            desc: "This template helps you with web developement. Work in progress.",
+            desc: "This template helps you with web developement. Work in progress. Expect v1.0.0 between Nov. 1 and Nov. 30.",
             link: "https://github.com/Aphixr/Weblet"
         }
     ]);
