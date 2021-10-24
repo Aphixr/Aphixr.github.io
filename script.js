@@ -116,14 +116,14 @@ window.addEventListener("DOMContentLoaded", () => {
             name: "Pixelet",
             ver: "v0.1.0*",
             lfs: ["C++", "OpenGL", "GLFW"],
-            desc: "This template helps you create graphics in C++. Work in progress. Expect v1.0.0 between Nov. 21 and Jan. 8.",
+            desc: "Create graphics in C++. Work in progress. Progress on this project is extremely slow. Expect v1.0.0 between Dec. 14 and Jan. 12.",
             link: "https://github.com/Aphixr/Pixelet"
         },
         {
             name: "Weblet",
-            ver: "v0.2.0*",
+            ver: "v0.2.3*",
             lfs: ["JavaScript"],
-            desc: "This template helps you with web developement. Work in progress. Expect v1.0.0 between Nov. 1 and Nov. 30.",
+            desc: "Make front-end web development easier. Work in progress. Expect v1.0.0 between Nov. 7 and Dec. 5.",
             link: "https://github.com/Aphixr/Weblet"
         }
     ]);
